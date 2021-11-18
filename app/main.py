@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 #print(settings.database_password)
 models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
-
+#11:50:32
 origins = ["https://www.google.com"]
 
 app.add_middleware(

@@ -13,5 +13,4 @@ class Settings(BaseSettings):
     class Config:
         env_file=".env"
 
-#9:21:26
 settings = Settings()
