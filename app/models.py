@@ -19,8 +19,6 @@ from .database import Base
 #     is_active = Column(Boolean, server_default='True',nullable=False)
 #     created_at = Column(TIMESTAMP(timezone=True),nullable=False,server_default=text('now()'))
     
-    
-    
 class Posts(Base):
     __tablename__ = "posts"
 
@@ -41,10 +39,7 @@ class User(Base):
     password = Column(String,nullable= False)
     is_active = Column(Boolean, server_default='True',nullable=False)
     created_at = Column(TIMESTAMP(timezone=True),nullable=False,server_default=text('now()'))
-    phone_number = Column(String,nullable=False)
     
-
-
 class Votes(Base):
     __tablename__ = "votes"
 
