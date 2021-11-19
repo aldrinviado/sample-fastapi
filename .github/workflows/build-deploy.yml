@@ -86,7 +86,7 @@ jobs:
         uses: actions/checkout@v2
       - name: deploying application to heroku
         uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-          with:
-            heroku_email: ${{secrets.HEROKU_EMAIL}}
-            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-            heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
+        with:
+          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
