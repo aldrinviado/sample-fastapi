@@ -26,7 +26,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return{"message": "Hellow World!!!"}
+    return{"message": "Hellow World WE WILL DEPLOY CI/CD PIPELINE"}
 
 
 # my_posts = [{"userid": "user id of post1","password": "paswsword of post1","id": 1},
